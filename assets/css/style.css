@@ -568,6 +568,20 @@ h2{
 /* ==================== Brands Section End ==================== */
 
 
+/* ==================== Industries Section Start ============== */
+
+#brands{
+  background-image: url(../img/00.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#b4b4b4;
+}
+
+/* ==================== Industries Section End ================= */
+
+
 
 
 
