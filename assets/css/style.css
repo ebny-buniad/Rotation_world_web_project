@@ -367,17 +367,18 @@ h2{
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   background-color: rgba(59, 59, 59, 0.8);
   overflow: hidden;
   padding: 0;
   position: relative;
   z-index: 1;
+  margin-bottom: 0px !important;
 }
 
 #hero .carousel-item {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -426,7 +427,7 @@ h2{
   width: 80%;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: arken(#545454, 15);
+  color: black;
 }
 
 #hero .carousel-inner .carousel-item {
@@ -559,11 +560,13 @@ h2{
 }
 
 .single_cards{
-  transition: .3s;
+  background-color: #ffffff;
+  transition: .5s;
 }
 
 .single_cards:hover{
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  background-color: transparent;
+  border: 1px solid rgb(26, 231, 50);
 }
 /* ==================== Brands Section End ==================== */
 
@@ -576,7 +579,7 @@ h2{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color:#b4b4b4;
+  background-color: #838383;
 }
 
 /* ==================== Industries Section End ================= */
