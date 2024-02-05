@@ -632,6 +632,37 @@ h2{
 
 
 
+/* ==================== News & Events Start ========================= */
+#news_bg{
+  background-image: url(../img/news/news_bg.jpg);
+  height: 50vh;
+  background-color: #8c8c8c;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.news_heading{
+  padding-top: 120px;
+  padding-left: 20px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+/* ==================== News & Events End ========================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
