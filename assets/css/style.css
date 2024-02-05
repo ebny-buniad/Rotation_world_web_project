@@ -585,8 +585,39 @@ h2{
 /* ==================== Industries Section End ================= */
 
 
+/* ===================== FEATURE BRAND PRODUCTS START ===================*/
+#feature_brands{
+  background-image: url(../img/feature_brand_biaring_image/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 
+.featured_brand_img_bg{
+  background-color: #337179;
+}
+.featured_brand_logo{
+  width: 150px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: auto;
+  display: block;
+}
+
+.featured_brand_img{
+  padding-top: 50px;
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.feature_brand_name{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+/* ===================== FEATURE BRAND PRODUCTS End ===================*/
 
 
 
