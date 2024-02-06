@@ -2,7 +2,7 @@
 # General--------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #212121;
 }
 
 a {
@@ -19,6 +19,10 @@ h2{
 
   color: #195ca4;
   font-family: "Raleway", sans-serif;
+}
+.section_heading{
+  font-size: 28px;
+  font-weight: 700;
 }
 
 /*--------------------------------------------------------------
@@ -106,12 +110,6 @@ h2{
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
-
-#header .logo h1 a,
-#header .logo h1 a:hover {
-  color: #545454;
-  text-decoration: none;
-}
 
 #header .logo img {
   padding-top: 10px;
@@ -623,8 +621,31 @@ h2{
 
 
 
+/* ===================== About Page Stat ============================ */
 
+.about_bg{
+  width: 100%;
+  margin-bottom: 50px;
+}
 
+#cr_message{
+  background-image: url(../img/feature_brand_biaring_image/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.message_text{
+  text-align: justify;
+}
+
+.chairman_name{
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* ===================== About Page End ============================ */
 
 
 
@@ -651,7 +672,24 @@ h2{
 /* ==================== News & Events End ========================= */
 
 
+/* ==================== Single News Page Start ========================= */
 
+.single_news_page_header_img{
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px
+}
+
+.single_news_page_news_title{
+  font-size: 25px;
+  font-weight: 700;
+}
+.single_news_page_news_content{
+  text-align: justify;
+}
+
+/* ==================== Single News Page End ========================= */
 
 
 
