@@ -722,6 +722,7 @@ h2{
 /* ==================== Single News Page Start ========================= */
 
 .single_news_page_header_img{
+  width: 50%;
   margin: auto;
   display: block;
   margin-top: 50px;
