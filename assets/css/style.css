@@ -652,10 +652,10 @@ h2{
 /* ===================== Products Page Start ============================ */
 
 .products-img{
-  width: 70%;
+  width: 85%;
   margin: auto;
   display: block;
-
+  margin-top: 50px;
 }
 
 .bearings-name-title{
@@ -695,6 +695,13 @@ h2{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+/* Ammeraal beltech */
+.beltech-product{
+  width: 92%;
+  margin: auto;
+  display: block;
 }
 
 /* ===================== Products Page Start ============================ */
