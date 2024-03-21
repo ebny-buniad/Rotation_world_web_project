@@ -2424,4 +2424,10 @@ section {
   color: white;
   background-color: gray;
 }
+
+.developed-company-logo{
+  width: 80px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
 /* Product ----- Bearings End */
